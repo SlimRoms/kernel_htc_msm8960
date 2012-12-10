@@ -206,7 +206,6 @@ static bool nfsd_up = false;
 static int nfsd_startup(unsigned short port, int nrservs, struct net *net)
 {
 	int ret;
-	struct net *net = &init_net;
 
 	if (nfsd_up)
 		return 0;
