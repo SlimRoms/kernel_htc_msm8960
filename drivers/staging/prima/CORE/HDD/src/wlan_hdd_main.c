@@ -131,7 +131,7 @@ int wlan_hdd_ftm_start(hdd_context_t *pAdapter);
 #ifdef MODULE
 #define WLAN_MODULE_NAME  module_name(THIS_MODULE)
 #else
-#define WLAN_MODULE_NAME  "wlan"
+#define WLAN_MODULE_NAME  "prima_wlan"
 #endif
 
 #ifdef TIMER_MANAGER
