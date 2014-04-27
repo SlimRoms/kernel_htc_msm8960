@@ -181,7 +181,6 @@ int vibrate(int time)
     return 0;
 }
 
-
 static int pm8xxx_vib_get_time(struct timed_output_dev *dev)
 {
 	struct pm8xxx_vib *vib = container_of(dev, struct pm8xxx_vib,
