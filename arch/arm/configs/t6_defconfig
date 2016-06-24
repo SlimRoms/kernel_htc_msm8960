@@ -3226,30 +3226,6 @@ CONFIG_QCOM_TDLS=y
 CONFIG_PRIMA_WLAN_3x=y
 
 #
-# Qualcomm Atheros Prima WLAN module
-#
-CONFIG_PRIMA_WLAN_3x=y
-# CONFIG_PRONTO_WLAN is not set
-# CONFIG_WLAN_FEATURE_11W is not set
-# CONFIG_CONFIG_ENABLE_LINUX_REG is not set
-
-#
-# Qualcomm Atheros Prima WLAN module
-#
-CONFIG_PRIMA_WLAN_3x=y
-# CONFIG_PRONTO_WLAN is not set
-# CONFIG_WLAN_FEATURE_11W is not set
-# CONFIG_CONFIG_ENABLE_LINUX_REG is not set
-
-#
-# Qualcomm Atheros Prima WLAN module
-#
-CONFIG_PRIMA_WLAN_3x=y
-# CONFIG_PRONTO_WLAN is not set
-# CONFIG_WLAN_FEATURE_11W is not set
-# CONFIG_CONFIG_ENABLE_LINUX_REG is not set
-
-#
 # Qualcomm MSM specific device drivers
 #
 CONFIG_MSM_SSBI=y
