@@ -3580,21 +3580,6 @@ wl_cfg80211_connect(struct wiphy *wiphy, struct net_device *dev,
 		wl_cfg80211_sched_scan_stop(wiphy, wl_to_prmry_ndev(wl));
 	}
 #endif
-#ifdef WL_SCHED_SCAN
-	if (wl->sched_scan_req) {
-		wl_cfg80211_sched_scan_stop(wiphy, wl_to_prmry_ndev(wl));
-	}
-#endif
-#ifdef WL_SCHED_SCAN
-	if (wl->sched_scan_req) {
-		wl_cfg80211_sched_scan_stop(wiphy, wl_to_prmry_ndev(wl));
-	}
-#endif
-#ifdef WL_SCHED_SCAN
-	if (wl->sched_scan_req) {
-		wl_cfg80211_sched_scan_stop(wiphy, wl_to_prmry_ndev(wl));
-	}
-#endif
 #if defined(ESCAN_RESULT_PATCH)
 	if (sme->bssid)
 		memcpy(connect_req_bssid, sme->bssid, ETHER_ADDR_LEN);

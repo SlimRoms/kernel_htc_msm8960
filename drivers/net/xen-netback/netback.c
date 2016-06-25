@@ -1696,7 +1696,7 @@ static void xen_netbk_idx_release(struct xen_netbk *netbk, u16 pending_idx,
 
 	} while (!pending_tx_is_head(netbk, peek));
 
-	netbk->mmap_pages[pending_idx]->mapping = NULL;
+	netbk->mmap_pages[pending_idx]->mapping = 0;
 	put_page(netbk->mmap_pages[pending_idx]);
 	netbk->mmap_pages[pending_idx] = NULL;
 }
